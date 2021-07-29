@@ -39,7 +39,7 @@
 }
 .custom-email{
     height:50px;
-    width:300px;
+    width:275px;
 }
 .custom-mail-btn{
     height:50px;
@@ -66,7 +66,7 @@
         flex-direction:column;
     }
     .custom-mail-btn{
-        width: 300px;
+        width: 275px;
         margin-top:5px;
         text-align: center;
     }

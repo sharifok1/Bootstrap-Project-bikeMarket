@@ -1,0 +1,73 @@
+.custom-size{
+    font-size: 48px;
+}
+.custom-btn{
+    background-color: #E76F51;
+    border-radius: 15px;
+    border:0px;
+    padding:5px 15px;
+}
+.under-line{
+    display: inline-block;
+    position: relative;
+    color:#E76F51;
+}
+.under-line::after{
+    content:"";
+    height:2px;
+    width:8%;
+    background-color:#E76F51;
+    position:absolute;
+    left:46%;
+    margin-top: 5px;
+    bottom:0;
+}
+.fa-star{
+    color:goldenrod;
+}
+.user{
+    max-width: 149px;
+}
+.slider-custom-background{
+    background-color:#021e04;
+}
+.subscribe-section{
+    background-color: #030202;
+}
+.custom-new-text{
+    color:orange;
+}
+.custom-email{
+    height:50px;
+    width:300px;
+}
+.custom-mail-btn{
+    height:50px;
+    width: 160px;
+    border:0;
+    background-color: orange;
+    transition:.5s;
+}
+.custom-mail-btn:hover{
+    background-color: #222;
+    color:white;
+}
+.fa-envelope{
+    transition: .5s;
+}
+.custom-mail-btn:hover .fa-envelope{
+    transform: rotate(360deg);
+}
+@media only screen and (max-width:768px){
+    .custom-size{
+        font-size: 36px;
+    }
+    .custom-flex{
+        flex-direction:column;
+    }
+    .custom-mail-btn{
+        width: 300px;
+        margin-top:5px;
+        text-align: center;
+    }
+}

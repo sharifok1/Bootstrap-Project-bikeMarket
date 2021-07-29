@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--======================fontawesome -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <!-- ======================bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap-css/bootstrap.min.css">
+    <!-- ======================custom-css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bike-Bazar</title>
+</head>
+<body>
+   <header style="background-color:#264653;">
+       <div class="container">
+<!--====================================== manu bar
+====================================================== -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <div class="d-flex align-items-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          </li> 
+                          <li><button class="custom-btn mt-1 ms-5 text-white">Login</button></li>
+                    </ul>
+                
+                </div>
+              </div>
+            </div>
+          </nav>
+<!-- =========================================banner
+====================================================== -->
+        <div class="row row-cols-lg-2 row-cols-1 d-flex justify-content-center align-items-center pt-4 pb-5">
+            <div class="col py-4">
+                <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-white custom-size">Honda CBR 300R</h1>
+                <p class="text-white py-2">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+<!-- ========================purchase button with modal 
+ =============================================================-->
+                  <div>
+                    <button type="button" class="custom-btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Purchase</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Customer Information</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Customer Name</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Customer Phone-Number</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Shipping Address</label>
+                                            <input type="text" class="form-control" id="recipient-name">
+                                        </div>
+                                         <div class="mb-3">
+                                            <label for="message-text" class="col-form-label">Message:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="custom-btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn custom-btn">Send message</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+<!--========================== bannar image 
+======================================================-->
+            <div class="col d-flex justify-content-center align-items-center pt-4">
+                <img class="img-fluid" src="image/header-bike.png" alt="">
+            </div>
+        </div>
+
+       </div>
+   </header>
+<!-- =============================main section
+=======================================================-->
+    <main>
+        <div class="container my-5">
+            <div class="row d-flex justify-content-center">
+                <h1 class="custom-size text-center">Fetured Bikes 2021</h1>
+                <h5 class="under-line text-center pb-1">Best bike collection</h5>
+                <div class="col- col-lg-3 mx-4 mt-5 pt-3">
+                    <img class="img-fluid" src="image/feature-bike.jpg" style="filter:grayscale(100%)">
+                </div>
+                <div class="col- col-lg-3 mx-5 mt-5 pt-3">
+                    <img class="img-fluid" src="image/feature-bike.jpg" >
+                </div>
+                <div class="col- col-lg-3 mx-4 mt-5 pt-3">
+                    <img class="img-fluid" src="image/feature-bike.jpg" style="filter:grayscale(100%)">
+                </div>
+                
+            </div>
+        </div>
+    </main>
+<!-- ================================latest-news section
+=========================================================== -->
+    <article class="container mb-5 pb-5">
+        <h1 class="text-center custom-size pb-3">latest News</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card border-0 shadow-sm p-2 rounded-lg">
+                <img class="img-fluid" src="image/bike-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Ducati XDIAVEL S73</h3>
+                  <p class="card-text">Ducati renews the XDiavel range by introducing two new versions for 2021: the XDiavel Dark and the XDiavel Black Star. 
+                    XDiavel, the...</p>
+
+                 <button class="custom-btn mt-2"> Read more</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-sm p-2 rounded-lg">
+                <img class="img-fluid" src="image/bike-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Motorcycles & Scooters</h3>
+                  <p class="card-text">The new sports version, the Black Star, and the matt black total look version, the XDiavel Dark, further enhance the strengths of the XDiavel. These....</p>
+                  <button class="custom-btn mt-2"> Read more</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0 shadow-sm p-2 rounded-lg">
+                <img class="img-fluid" src="image/bike-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">2021 Honda CBR500R</h3>
+                  <p class="card-text">The new XDiavel Black Star version embodies the sports side of the Ducati cruiser, with a livery and equipment inspired by the world of sports cars.</p>
+                  <button class="custom-btn mt-2"> Read more</button>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+    </article>
+    
+    <!--===============- happy clients says sections
+    ====================================================== -->
+    <section class="container">
+        <h1 class="custom-size text-center p-4">Happy <span style="color:#E76F51;">Clients says</span> </h1>
+        <div class="row d-flex justify-content-center mx-3">
+            <div class="col- col-lg-3 text-center border p-4 rounded m-3">
+                <img class="img-fluid user pb-5" src="image/user-1.png">
+                <p class="text-center text-muted">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="py-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h6 class="text-center pb-3 text-primary fw-bold">Regina Miles</h6>
+                    <h6 class="text-center fw-bold">Banker</h6>
+            </div>
+            <div class="col- col-lg-3 text-center border p-4 rounded m-3">
+                <img class="img-fluid user pb-5" src="image/user-2.png">
+                <p class="text-center text-muted">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="py-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h6 class="text-center pb-3 text-primary fw-bold">Regina Miles</h6>
+                    <h6 class="text-center fw-bold">Banker</h6>
+            </div>
+            <div class="col- col-lg-3 text-center border p-4 rounded m-3">
+                <img class="img-fluid user pb-5" src="image/user-3.png">
+                <p class="text-center text-muted">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="py-3">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h6 class="text-center pb-3 text-primary fw-bold">Regina Miles</h6>
+                    <h6 class="text-center fw-bold">Banker</h6>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--====================== Q&A section 
+    ==========================================-->
+    <section class="container">
+        <h1 class="custom-size text-center mt-5">Frequently Asked <span style="color:#E76F51;">Questions</span> </h1>
+        <div class="row d-flex align-items-center justify-content-center p-2 ">
+            <div class="col- col-md-6">
+                <img class="img-fluid p-5" src="image/faq.png">
+            </div>
+
+    <!--============== ================Accordion
+        ======================================== ============ -->
+            <div class="col- col-md-6">
+                <div class="accordion accordion-flush border shadow" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          <h4>Q:Is  warranty avilable?</h4>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yes, You will get 1 years warranty for every parcel. If any parts will down we will help you to recover it without any cost.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          <h4>Q: How Can make a order?</h4>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Its very simple. You should just click purches button, and then give your all information thats we wanted . After complet your task. Then Our task will be start</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          <h4>Q: How  Can I make payment?</h4>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> Its very imfortant. After your corder you have to complete your payment talking with us directly. then we provide you all information for payment process.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+<!-- =======================================our running offer
+    ======================================================================== -->
+
+<section>
+    <h1 class="custom-size text-center mt-5 py-4">Our Runnig <span style="color:#E76F51;">Offer</span> </h1>
+    <div  class="slider-custom-background">
+        <div class="container p-4">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center justify-content-center">
+                         <div class="col- col-md-6">
+                            <img src="image/slider-1.png" class="d-block w-100" alt="...">
+                             </div>
+                              <div class="col text-center">
+                                <h1 class="text-white">Special Offer</h1>
+                                <h1 class="custom-size text-danger fw-bold">20% Discount</h1>
+                                <h2 class="text-white">only for this mounth</h2>
+                             </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center justify-content-center">
+                         <div class="col- col-md-6">
+                            <img src="image/slider-2.png" class="d-block w-100" alt="...">
+                             </div>
+                              <div class="col text-center">
+                                <h1 class="text-danger">New year offer</h1>
+                                <h1 class="custom-size text-white">Up to 50% Discount</h1>
+                             </div>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex align-items-center justify-content-center">
+                         <div class="col- col-md 6">
+                            <img src="image/slider-3.png" class="d-block w-100" alt="...">
+                             </div>
+                              <div class="col text-center">
+                                <h1 class="text-white">Promo Code Offer</h1>
+                                <h1 class="custom-size text-danger">30% Discount </h1>
+                                <h2 class="text-white">With 1 years service warranty</h2>
+                             </div>
+                        </div> 
+                    </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===============subscribe for notification
+========================================================-->
+    <aside class="subscribe-section p-4">
+        <div >
+            <h2 class="text-center fw-bold custom-new-text">NEWSLETTER</h2>
+            <h1 class="custom-size text-center text-white">GET NOTIFIED OF ANY UPDATES!</h1>
+        </div>
+        <div>
+            <div class="d-flex justify-content-center align-items-center py-4 custom-flex">
+                <input class="custom-email mx-2" type="email" name="" id="" placeholder="enter your email address">
+                <button class="custom-mail-btn mx-2"> <i class="far fa-envelope"></i>  SUBSCRIBE</button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- footer// -->
+<footer>
+    <p class="text-white bg-dark text-center -mb-5 py-3">all &copy copy rights reserved 2021</p>
+</footer>
+    <script src="css/bootstrap-js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
